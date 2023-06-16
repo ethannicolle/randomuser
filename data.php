@@ -28,7 +28,6 @@
     $streetname = $users[0]['location']['street']['name'];
     $postcode = $users[0]['location']['postcode'];
     $city = $users[0]['location']['city'];
-    $state = $users[0]['location']['state'];
     $country = $users[0]['location']['country'];
 
 ?>

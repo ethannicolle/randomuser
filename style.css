@@ -23,13 +23,20 @@ body {
 .user-card-container {
     background: #4c0c9b;
     border-radius: 5px;
-    height: 200px;
+    height: 250px;
     width: 500px;
+    display: flex;
+    flex-direction: column;
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.418));
+}
+
+.top {
+    height: 100%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 50px;
-    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.418));
     line-height: 25px;
 }
 
@@ -38,6 +45,25 @@ body {
     height: 128px;
     border-radius: 100%;
     filter: drop-shadow(0 0 0.75rem crimson);
+}
+
+.bottom {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-primary {
+    background-color: #a160f2;
+    height: 75%;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.418));
+    color: #07010f;
+    font-size: 17px;
 }
 
 .notimportant {
